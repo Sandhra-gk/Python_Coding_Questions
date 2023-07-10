@@ -1,4 +1,4 @@
-Given two arrays X and Y of positive integers, find the number of pairs such that xy > yx (raised to power of) where x is an element from X and y is an element from Y.
+# Given two arrays X and Y of positive integers, find the number of pairs such that xy > yx (raised to power of) where x is an element from X and y is an element from Y.
 
 n = int(input("Enter size of array 1: "))
 arr1 = []
