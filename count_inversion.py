@@ -1,4 +1,4 @@
-Given an array of integers. Find the Inversion Count in the array. Two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
+# Given an array of integers. Find the Inversion Count in the array. Two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j.
 
 n = int(input("enter size of array: "))
 arr = []
