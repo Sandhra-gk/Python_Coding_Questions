@@ -3,18 +3,22 @@
 n = int(input("Enter number: "))
 m = int(input("Enter number closest to: "))
 division = int(n/m) 
-
+print(division)
 modulus = int(n%m) 
-next_div = division + m
+print(modulus)
+next_div_p = (m*division) + m
+print(next_div_p)
+next_div_n = (m*division) - m
+print(next_div_n)
 
 if(n>=0):
     if(modulus == 0 or modulus == 1):
         print(m*division)
     else:
-        print(m*next_div)
+        print(next_div_p)
 else:
     if(modulus == 0 or modulus == 1):
-        print("-",m*next_div)
+        print(m*division)
     else:
-        print("-",m*modulus)
-    
+        print(next_div_n)
+
